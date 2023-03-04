@@ -36,18 +36,6 @@ const Home = ({ showUser }) => {
       <HomeMy />
       <HomePosts />
       <HomeFriends />
-      
-        {
-          showUser &&
-          <div className='userOpen'>
-            <div>
-              <img src='https://cdn-icons-png.flaticon.com/512/149/149071.png' alt='userImg'/>
-              <span>{currentUser?.username}</span>
-            </div>
-            <span>Log Out</span>
-          </div>
-        }
-      
     </div>
   )
 }
