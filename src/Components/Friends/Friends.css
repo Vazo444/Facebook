@@ -1,0 +1,14 @@
+.friends{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5%;
+    justify-content: space-between;
+}
+.friendsUser{
+    width: 12%;
+    margin-top: 50px;
+    box-shadow: 3px 3px 12px #000;
+    border-radius: 5px;
+    padding: 5px 0;
+    text-align: center;
+}

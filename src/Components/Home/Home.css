@@ -1,0 +1,92 @@
+.home{
+    display: flex;
+}
+.home img{
+    width: 30px;
+    height: 30px;
+    margin: 0 3px;
+}
+.link{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    transition: .3s;
+}
+.link:hover{
+    background-color: rgba(0, 0, 0, 0.249);
+}
+.homeMy{
+    width: 10%;
+    border-right: 1px solid rgba(0, 0, 0, 0.249);
+    height: 100%;
+    position: fixed;
+    margin-top: 50px;
+    left: 20%;
+}
+.homePosts{
+    width: 50%;
+    margin: 50px 5% 0 25%;
+}
+.post{
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 15px 0;
+    background-color: #4441416c;
+    box-shadow: 3px 3px 12px #000;
+}
+.postUsername{
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    margin: 3px 0;
+}
+.postImg{
+    width: 100%;
+}
+.postImg img{
+    width: 99%;
+    height: 100%;
+}
+.bord{
+    font-weight: 700;
+    margin: 5px 0;
+}
+.likeAgo{
+    display: flex;
+    justify-content: space-between;
+}
+.commentInput{
+    width: 100%;
+    border-radius: 30px;
+    padding: 5px 10px;
+    background-color: #0000007f;
+    color: #fff;
+    margin: 10px 0;
+}
+
+.homeFriends{
+    border-left: 1px solid #000;
+    margin-top: 50px;
+    margin-right: 0;
+    right: 20%;
+    width: 11%;
+    height: 100%;
+    position: fixed;
+}
+.homeUser{
+    margin: 10px 3px;
+    display: flex;
+    align-items: center;
+}
+.userOpen{
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    box-shadow: 3px 3px 12px #000;
+}

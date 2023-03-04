@@ -1,0 +1,31 @@
+.login{
+    width: 30%;
+    padding: 15px;
+    margin: 100px auto;
+    box-shadow: 3px 3px 12px #000;
+    border-radius: 10px;
+}
+.loginForm{
+    display: flex;
+    flex-direction: column;
+}
+.formChild{
+    margin: 10px 0;
+    padding: 5px 10px;
+    font-size: 15px;
+    outline: 1px solid #00000060;
+    border-radius: 5px;
+    
+}
+.loginForm button{
+    background-color: rgb(24,119,242);
+    border: none;
+    color: #fff;
+    font-weight: 700;
+}
+.logo{
+    text-align: center;
+    color: rgb(24,119,242);
+    font-weight: 900;
+    font-size: 30px;
+}
